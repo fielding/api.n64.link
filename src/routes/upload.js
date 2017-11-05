@@ -6,7 +6,7 @@ const upload = async ctx => {
   ctx.body = 'uplaod router here!';
 };
 
-router.get('', upload);
+router.get('/upload', upload);
 
 export default router;
 
